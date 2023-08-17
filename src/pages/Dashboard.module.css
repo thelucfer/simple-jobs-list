@@ -1,0 +1,15 @@
+.list_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
+  padding: 2rem;
+  gap: 2rem;
+
+  @media (--media-l) {
+    grid-template-columns: repeat(auto-fill, minmax(min(25rem, 100%), 1fr));
+    padding: 4rem;
+    gap: 4rem;
+  }
+  @media (--media-xl) {
+    grid-template-columns: repeat(auto-fill, minmax(min(35rem, 100%), 1fr));
+  }
+}

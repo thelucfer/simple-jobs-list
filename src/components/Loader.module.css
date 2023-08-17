@@ -1,0 +1,6 @@
+.loader {
+  display: grid;
+  max-width: 30rem;
+  padding: 1rem;
+  place-self: center;
+}

@@ -1,0 +1,21 @@
+.footer {
+  grid-area: footer;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  gap: 0.25rem;
+
+  font-size: var(--font-size-s);
+}
+
+.footer__git_link {
+  font-family: var(--font-secondary);
+  text-decoration: none;
+
+  color: var(--color-secondary);
+  transition: 0.4s all ease-in-out;
+  &:hover {
+    transition: 0.2s all ease-in-out;
+    color: var(--color-contrast);
+  }
+}
