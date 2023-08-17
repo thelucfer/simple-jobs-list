@@ -2,6 +2,8 @@
 
 just as the name says
 
+deployed at: [simple-jobs-list.vercel.app](https://simple-jobs-list.vercel.app)
+
 ## Instructions
 
 To run in dev mode:
