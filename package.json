@@ -44,7 +44,7 @@
     "postcss-preset-env": "^9.1.1",
     "prettier": "^3.0.2",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5",
+    "vite": "^4.4.12",
     "vitest": "^0.34.1"
   }
 }
